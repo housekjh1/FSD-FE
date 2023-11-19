@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import CarShop from './CarShop/CarShop';
+// import WeatherApp from './1/WeatherApp';
+// import GithubAPI from './1/GithubAPI';
+// import ShoppingList from './1/ShoppingList';
+// import MyForm from './1/MyForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <MyForm /> */}
+      {/* <WeatherApp /> */}
+      {/* <GithubAPI /> */}
+      {/* <ShoppingList /> */}
+      <CarShop />
     </div>
   );
 }
