@@ -3,3 +3,8 @@
 ## 개발 툴
 > FE : React<br/>
 > BE : Spring
+### 설치
+[MUI](https://mui.com/)
+> npm install @mui/material @emotion/react @emotion/styled<br/>
+> npm install @mui/icons-material<br/>
+> npm install @mui/x-data-grid
